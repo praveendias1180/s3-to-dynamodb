@@ -15,3 +15,9 @@ Authored with SAM Framework. (AWS Serverless Application Model)
 ![](images/complete.png)
 
 ![](images/cat-profile.png)
+
+# Delete Stack
+
+```
+aws cloudformation delete-stack --stack-name s3-to-ddb --region us-east-2
+```
